@@ -15,4 +15,3 @@ def state_get_all():
     """
     state_list = []
     state_obj = storage.all("State")
-

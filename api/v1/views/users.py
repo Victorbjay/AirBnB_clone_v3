@@ -29,4 +29,3 @@ def user_create():
     """
     user_json = request.get_json(silent=True)
     if user_json is None:
-

@@ -23,4 +23,3 @@ def city_by_state(state_id):
         city_list.append(obj.to_json())
 
     return jsonify(city_list)
-

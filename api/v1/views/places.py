@@ -89,4 +89,3 @@ def place_put(place_id):
     for key, val in place_json.items():
         if key not in ["id", "created_at", "updated_at", "user_id", "city_id"]:
             setattr(fetched_obj, key, val)
-
